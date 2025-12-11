@@ -24,10 +24,47 @@ class MyApp extends StatelessWidget {
     // ignore: undefined_method
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Supabase Registration',
+      title: 'Professional Auth',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF6366F1),
+          brightness: Brightness.light,
+        ),
+        typography: Typography.material2021(),
+        textTheme: const TextTheme(
+          displayLarge: TextStyle(
+            fontSize: 32,
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF1E293B),
+          ),
+          headlineLarge: TextStyle(
+            fontSize: 28,
+            fontWeight: FontWeight.w600,
+            color: Color(0xFF1E293B),
+          ),
+          headlineSmall: TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.w600,
+            color: Color(0xFF1E293B),
+          ),
+          bodyLarge: TextStyle(fontSize: 16, color: Color(0xFF64748B)),
+        ),
+        appBarTheme: const AppBarTheme(
+          elevation: 0,
+          backgroundColor: Colors.transparent,
+          centerTitle: true,
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            elevation: 4,
+            shadowColor: const Color(0xFF6366F1).withAlpha(50),
+            padding: const EdgeInsets.symmetric(vertical: 16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+        ),
       ),
       home: const AuthCheck(),
     );
