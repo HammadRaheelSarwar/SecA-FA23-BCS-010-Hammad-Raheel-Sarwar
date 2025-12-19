@@ -1,0 +1,76 @@
+﻿Running Gradle task 'assembleRelease'...                        
+flutter : Warning: Flutter support for your project's Android Gradle Plugin version (Android Gradle Plugin 
+version 8.1.1) will soon be dropped. Please upgrade your Android Gradle Plugin version to a version of at 
+least Android Gradle Plugin version 8.6.0 soon.
+At line:1 char:74
++ ... er clean ; flutter pub get ; flutter build apk --release 2>&1 | Out-F ...
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: Flutte...ion 8.6.0 soon.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's AGP version is typically defined in the plugins block of the 
+`settings.gradle` file (D:\Android IOs\LabFinal\twitter\android/settings.gradle), by a plugin with the id 
+of com.android.application. 
+If you don't see a plugins block, your project was likely created with an older template version. In this 
+case it is most likely defined in the top-level build.gradle file (D:\Android 
+IOs\LabFinal\twitter\android/build.gradle) by the following line in the dependencies block of the 
+buildscript: "classpath 'com.android.tools.build:gradle:<version>'".
+
+Warning: Flutter support for your project's Kotlin version (1.8.10) will soon be dropped. Please upgrade 
+your Kotlin version to a version of at least 2.1.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's KGP version is typically defined in the plugins block of the 
+`settings.gradle` file (D:\Android IOs\LabFinal\twitter\android/settings.gradle), by a plugin with the id 
+of org.jetbrains.kotlin.android. 
+If you don't see a plugins block, your project was likely created with an older template version, in which 
+case it is most likely defined in the top-level build.gradle file (D:\Android 
+IOs\LabFinal\twitter\android/build.gradle) by the ext.kotlin_version property.
+
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of 
+version 4 was encountered. This can happen if you use versions of Android Studio and the command-line 
+tools that were released at different times.
+Checking the license for package Android SDK Build-Tools 33.0.1 in D:\Newfolder\licenses
+License for package Android SDK Build-Tools 33.0.1 accepted.
+Preparing "Install Android SDK Build-Tools 33.0.1 v.33.0.1".
+"Install Android SDK Build-Tools 33.0.1 v.33.0.1" ready.
+Installing Android SDK Build-Tools 33.0.1 in D:\Newfolder\build-tools\33.0.1
+"Install Android SDK Build-Tools 33.0.1 v.33.0.1" complete.
+"Install Android SDK Build-Tools 33.0.1 v.33.0.1" finished.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+C:\Users\Hammad Raheel Sarwar\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.1
+5\android\src\main\java\io\flutter\plugins\flutter_plugin_android_lifecycle\FlutterAndroidLifecyclePlugin.j
+ava:19: error: cannot find symbol
+      @NonNull io.flutter.plugin.common.PluginRegistry.Registrar registrar) {
+                                                      ^
+  symbol:   class Registrar
+  location: interface PluginRegistry
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':flutter_plugin_android_lifecycle:compileReleaseJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 4m 42s
+Running Gradle task 'assembleRelease'...                          283.6s
+
+ÔöîÔöÇ Flutter Fix ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+Ôöé [!] Consult the error logs above to identify any broken plugins, specifically those containing  Ôöé
+Ôöé "error: cannot find symbol..."                                                                  Ôöé
+Ôöé This issue is likely caused by v1 embedding removal and the plugin's continued usage of removed Ôöé
+Ôöé references to the v1 embedding.                                                                 Ôöé
+Ôöé To fix this error, please upgrade your current package's dependencies to latest versions by     Ôöé
+Ôöé running `flutter pub upgrade`.                                                                  Ôöé
+Ôöé If that does not work, please file an issue for the problematic plugin(s) here:                 Ôöé
+Ôöé https://github.com/flutter/flutter/issues                                                       Ôöé
+ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+Gradle task assembleRelease failed with exit code 1

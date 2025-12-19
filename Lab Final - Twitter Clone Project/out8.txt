@@ -1,0 +1,93 @@
+﻿Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 91.0.0 (92.0.0 available)
+  analyzer 8.4.1 (9.0.0 available)
+  characters 1.4.0 (1.4.1 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  test 1.26.3 (1.28.0 available)
+  test_api 0.7.7 (0.7.8 available)
+  test_core 0.6.12 (0.6.14 available)
+Got dependencies!
+8 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Running Gradle task 'assembleRelease'...                        
+flutter : Warning: Flutter support for your project's Android Gradle Plugin version (Android Gradle Plugin 
+version 8.1.1) will soon be dropped. Please upgrade your Android Gradle Plugin version to a version of at 
+least Android Gradle Plugin version 8.6.0 soon.
+At line:1 char:56
++ ... l\twitter" ; flutter clean ; flutter build apk --release 2>&1 | Out-F ...
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: Flutte...ion 8.6.0 soon.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's AGP version is typically defined in the plugins block of the 
+`settings.gradle` file (D:\Android IOs\LabFinal\twitter\android/settings.gradle), by a plugin with the id 
+of com.android.application. 
+If you don't see a plugins block, your project was likely created with an older template version. In this 
+case it is most likely defined in the top-level build.gradle file (D:\Android 
+IOs\LabFinal\twitter\android/build.gradle) by the following line in the dependencies block of the 
+buildscript: "classpath 'com.android.tools.build:gradle:<version>'".
+
+Warning: Flutter support for your project's Kotlin version (1.8.10) will soon be dropped. Please upgrade 
+your Kotlin version to a version of at least 2.1.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's KGP version is typically defined in the plugins block of the 
+`settings.gradle` file (D:\Android IOs\LabFinal\twitter\android/settings.gradle), by a plugin with the id 
+of org.jetbrains.kotlin.android. 
+If you don't see a plugins block, your project was likely created with an older template version, in which 
+case it is most likely defined in the top-level build.gradle file (D:\Android 
+IOs\LabFinal\twitter\android/build.gradle) by the ext.kotlin_version property.
+
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+e: file:///C:/Users/Hammad%20Raheel%20Sarwar/.gradle/caches/transforms-4/b8cea0543f8a2f2bbf78f15269a896ac/t
+ransformed/play-services-measurement-impl-23.0.0-api.jar!/META-INF/java.com.google.android.gms.libs.filecom
+pliance.proto_file_access_api_type_kt_proto_lite.kotlin_moduleModule was compiled with an incompatible 
+version of Kotlin. The binary version of its metadata is 2.1.0, expected version is 1.8.0.
+e: file:///C:/Users/Hammad%20Raheel%20Sarwar/.gradle/caches/transforms-4/b8cea0543f8a2f2bbf78f15269a896ac/t
+ransformed/play-services-measurement-impl-23.0.0-api.jar!/META-INF/third_party.kotlin.protobuf.src.commonMa
+in.kotlin.com.google.protobuf.kotlin_only_for_use_in_proto_generated_code_its_generator_and_tests.kotlin_mo
+duleModule was compiled with an incompatible version of Kotlin. The binary version of its metadata is 
+2.1.0, expected version is 1.8.0.
+e: file:///C:/Users/Hammad%20Raheel%20Sarwar/.gradle/caches/transforms-4/b8cea0543f8a2f2bbf78f15269a896ac/t
+ransformed/play-services-measurement-impl-23.0.0-api.jar!/META-INF/third_party.kotlin.protobuf.src.commonMa
+in.kotlin.com.google.protobuf.kotlin_shared_runtime.kotlin_moduleModule was compiled with an incompatible 
+version of Kotlin. The binary version of its metadata is 2.1.0, expected version is 1.8.0.
+e: file:///C:/Users/Hammad%20Raheel%20Sarwar/.gradle/caches/transforms-4/d5d7dcfe5390f8a367fcee07f9dfa0d9/t
+ransformed/play-services-measurement-api-23.0.0-api.jar!/META-INF/java.com.google.android.gmscore.integ.cli
+ent.measurement_api_measurement_api.kotlin_moduleModule was compiled with an incompatible version of 
+Kotlin. The binary version of its metadata is 2.1.0, expected version is 1.8.0.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':firebase_analytics:compileReleaseKotlin'.
+> A failure occurred while executing 
+org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3m 3s
+Running Gradle task 'assembleRelease'...                          184.6s
+
+ÔöîÔöÇ Flutter Fix ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+Ôöé [!] Your project requires a newer version of the Kotlin Gradle plugin.                       Ôöé
+Ôöé Find the latest version on https://kotlinlang.org/docs/releases.html#release-details, then   Ôöé
+Ôöé update the                                                                                   Ôöé
+Ôöé version number of the plugin with id "org.jetbrains.kotlin.android" in the plugins block of  Ôöé
+Ôöé D:\Android IOs\LabFinal\twitter\android\settings.gradle.                                     Ôöé
+Ôöé                                                                                              Ôöé
+Ôöé Alternatively (if your project was created before Flutter 3.19), update                      Ôöé
+Ôöé D:\Android IOs\LabFinal\twitter\android\build.gradle                                         Ôöé
+Ôöé ext.kotlin_version = '<latest-version>'                                                      Ôöé
+ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+Gradle task assembleRelease failed with exit code 1
